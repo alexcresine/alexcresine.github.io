@@ -1,0 +1,76 @@
+@font-face { font-family: Bajern; src: url('../fonts/Bajern.otf'); }
+@font-face { font-family: Bajern; font-weight: bold; src: url('../fonts/Bajern.otf');}
+
+h1 { font-family: Bajern, sans-serif; }
+
+.logo1 {
+    height: 50px;
+    width: 45px;
+    padding-top: 10px;
+}
+.workH3 {
+font-size: 40px;
+    font-family: Bajern;
+    letter-spacing: 2px; }
+
+.trade { font-size: 20px; }
+
+.container {
+  display: flex;
+}
+
+.footerbox { margin-right: 20%;}
+
+
+
+@media screen and (max-width: 375px) {
+  .logo1 {
+    height: 40px;
+    width: 40px;
+    padding-top: 5px;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  }
+  }
+
+  @media screen and (max-width: 414px) {
+    .logo1 {
+      height: 40px;
+      width: 40px;
+      padding-top: 5px;
+    }
+    .container {
+      display: flex;
+      align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+  }
+
+  .email-me {
+
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    padding-top: 10px;
+  }
+
+  .titles-front {
+    font-size: 40px;
+        font-family: Bajern;
+        letter-spacing: 2px;
+  }
+
+  .icons {
+    display: flex;
+  }
+
+  .icons-pics {
+    height: 40px;
+    color: #fff;
+  }
